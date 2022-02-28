@@ -1,3 +1,4 @@
+/* All  */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@400;500;700&display=swap");
 
 * {
@@ -10,6 +11,8 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+/* Landing Page */
 
 section::before {
   content: "";
@@ -81,6 +84,8 @@ section::before {
   outline: none;
 }
 
+/* About Us Page */
+
 .heading {
   font-size: 48px;
   font-weight: 700;
@@ -91,39 +96,50 @@ section::before {
 
 #main-logo {
   height: 70%;
+  display: block;
 }
 
 .display-imgs img {
   height: 100px;
 }
 
+.info {
+  height: 70vh;
+}
+
+/* Projects Page */
+
 .filters button {
-  background-color: inherit;
+  background-color: rgba(161, 174, 192, 0.05);
   color: black;
   border: none;
   outline: none;
-  border: 1px solid #a1aec0;
 }
 
 .filters button:hover {
-  background-color: #a1aec0;
+  background-color: rgba(161, 174, 192, 0.3);
   border: none;
+  outline: none;
+  color: black;
+}
+
+.filters button:focus {
+  background-color: rgba(161, 174, 192, 0.3);
+  border: none;
+  outline: none;
   color: black;
 }
 
 .card {
   background-color: #dae8f8;
   border-radius: 10px;
+  outline: none;
+  border: none;
 }
 
 .card-title {
   color: #476389;
   font-size: 24px;
-}
-
-footer {
-  background-color: #feb639;
-  color: black;
 }
 
 .tns-controls {
@@ -145,4 +161,11 @@ footer {
   background-color: #a1aec0;
   opacity: 20%;
   border: none;
+}
+
+/* Footer */
+
+footer {
+  background-color: #feb639;
+  color: black;
 }
