@@ -67,14 +67,14 @@ section::before {
   font-size: 32px;
 }
 
-#hero button {
+#hero a {
   background-color: #feb639;
   color: black;
   border: none;
   outline: none;
 }
 
-#hero button:hover {
+#hero a:hover {
   background-color: #fa6020;
   color: white;
   border: none;
@@ -100,10 +100,14 @@ section::before {
 .filters button {
   background-color: inherit;
   color: black;
+  border: none;
+  outline: none;
+  border: 1px solid #a1aec0;
 }
 
 .filters button:hover {
   background-color: #a1aec0;
+  border: none;
   color: black;
 }
 

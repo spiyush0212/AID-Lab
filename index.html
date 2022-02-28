@@ -37,13 +37,13 @@
                 <div class="collapse navbar-collapse text-center" id="navbarsExample11">
                     <ul class="navbar-nav mt-3">
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">ABOUT</a>
+                            <a class="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-link" href="#">WORK</a>
                         </li>
                         <li class="nav-item mx-3">
-                            <a class="nav-link" href="#">PROJECTS</a>
+                            <a class="nav-link" href="#project">PROJECTS</a>
                         </li>
                         <li class="nav-item mx-3">
                             <a class="nav-brand" href="#"><img id="nav-logo" src="imgs/logo-jpg.jpg" alt=""></a>
@@ -65,7 +65,7 @@
 
     <div class="container">
         <!-- LANDING PAGE -->
-        <div class="header row">
+        <div id="landing" class="header row">
             <div id="hero" class="col-8 d-flex flex-column justify-content-center">
                 <h1>Accessibility and
                     <br>
@@ -75,7 +75,7 @@
                 <h2>
                     Embracing Human Diversity
                 </h2>
-                <button class="my-3 btn btn-success align-self-start">Know More</button>
+                <a href="#about" class="my-3 btn btn-success align-self-start">Know More</a>
             </div>
             <div class="col-4 d-flex justify-content-center align-items-center">
                 <img src="imgs/hands.jpg" class="img-fluid" alt="...">
@@ -83,9 +83,9 @@
         </div>
 
         <!-- ABOUT US PAGE -->
-        <div class="about">
-            <h2 class="heading my-5 text-center">ABOUT US</h2>
-            <div class="info my-5 row d-flex flex-row">
+        <div id="about" class="about">
+            <h2 class="heading mt-5 text-center">ABOUT US</h2>
+            <div class="info row mt-5 d-flex flex-row">
                 <div class="col-6">
                     <img src="imgs/logo-jpg.jpg" id='main-logo' class="img-fluid" alt="...">
                 </div>
@@ -99,20 +99,20 @@
                         volutpat scelerisque nTurpis id volutpat scelerisque
                         nisl vitae fermentum scel lorem sem ut. Consequadst s
                     </p>
-                    <div class="display-imgs d-flex flex-row justify-content-between">
-                        <img src="imgs/hands.jpg" alt="">
-                        <img src="imgs/hands.jpg" alt="">
-                        <img src="imgs/hands.jpg" alt="">
-                        <img src="imgs/hands.jpg" alt="">
-                        <img src="imgs/hands.jpg" alt="">
+                    <div class="display-imgs mt-4 d-flex flex-row justify-content-between">
+                        <img src="imgs/about/about1.jpg" alt="">
+                        <img src="imgs/about/about2.jpg" alt="">
+                        <img src="imgs/about/about3.jpg" alt="">
+                        <img src="imgs/about/about4.jpg" alt="">
+                        <img src="imgs/about/about1.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- PROJECT PAGE -->
-        <div class="project">
-            <h2 class="heading my-5 text-center">Projects</h2>
+        <div id="project" class="project">
+            <h2 class="heading mb-5 text-center">Projects</h2>
             <div class="filters text-center">
                 <button class="btn btn-success">Usabilty</button>
                 <button class="btn btn-success">Future</button>
@@ -122,7 +122,7 @@
             <div class="info my-5 row d-flex flex-row my-slider">
                 <div class="col-4 my-3   text-center d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="imgs/projects/project2.jpg" class="card-img-top" alt="...">
+                        <img src="imgs/projects/project1.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Data Trust</h5>
                             <p class="card-text">The mobility data trust is an effort to make India's mobility data from
@@ -135,21 +135,18 @@
                         <img src="imgs/projects/project2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Road Safety</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
-
+                            <p class="card-text">An app which provide directions using static / realtime feed of buses,
+                                bus route and metro line details and provide
                         </div>
                     </div>
                 </div>
                 <div class="col-4 my-3   text-center d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="imgs/projects/project2.jpg" class="card-img-top" alt="...">
+                        <img src="imgs/projects/project3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Speech Technology</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text">A web application displaying the real-time location of buses in Delhi
+                                with filters based on routes and registration numbers.</p>
 
                         </div>
                     </div>
