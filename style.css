@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Raleway:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: -60%;
+  width: 1700px;
+  height: 1700px;
+  background: #dae8f8;
+  z-index: -1;
+  border-radius: 50%;
+  transform-origin: bottom;
+  transform: translateX(0%) translateY(0%);
+}
+
+#nav-logo {
+  height: 50px;
+}
+
+.navbar-nav li a {
+  font-size: 16px;
+  color: black;
+  /* border: 1px solid red; */
+}
+
+.navbar-nav li a:hover {
+  color: #feb639;
+  /* border: 1px solid red; */
+}
+
+.header {
+  height: 80vh;
+  color: #476389;
+}
+
+.header img {
+  clip-path: circle();
+}
+
+#hero {
+  font-family: "Raleway", sans-serif;
+}
+
+#hero h1 {
+  font-weight: 700;
+  font-size: 48px;
+}
+
+#hero hr {
+  width: 65%;
+}
+
+#hero h2 {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+#hero button {
+  background-color: #feb639;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+#hero button:hover {
+  background-color: #fa6020;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.heading {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #476389;
+  text-justify: inter-word;
+}
+
+#main-logo {
+  height: 70%;
+}
+
+.display-imgs img {
+  height: 100px;
+}
+
+.filters button {
+  background-color: inherit;
+  color: black;
+}
+
+.filters button:hover {
+  background-color: #a1aec0;
+  color: black;
+}
+
+.card {
+  background-color: #dae8f8;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: #476389;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #feb639;
+  color: black;
+}
+
+.tns-controls {
+  display: none;
+}
+
+.tns-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tns-nav button {
+  height: 10px;
+  width: 30px;
+  margin: 0px 10px;
+  /* border-radius: 10px; */
+  background-color: #a1aec0;
+  opacity: 20%;
+  border: none;
+}
