@@ -157,6 +157,19 @@ section::before {
   border: none;
 }
 
+/* Teams Page  */
+.team figure img {
+  width: 100%;
+}
+
+.team figure figcaption {
+  text-align: center;
+}
+
+.team figure img:hover {
+  cursor: pointer;
+}
+
 /* Footer */
 
 footer {
