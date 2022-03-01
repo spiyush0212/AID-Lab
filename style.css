@@ -95,7 +95,7 @@ section::before {
 }
 
 #main-logo {
-  height: 70%;
+  height: 60%;
   display: block;
 }
 
@@ -111,18 +111,12 @@ section::before {
 
 .filters button {
   background-color: rgba(161, 174, 192, 0.05);
-  color: black;
-  border: none;
-  outline: none;
-}
-
-.filters button:hover {
-  background-color: rgba(161, 174, 192, 0.3);
   border: none;
   outline: none;
   color: black;
 }
 
+.filters button:hover,
 .filters button:focus {
   background-color: rgba(161, 174, 192, 0.3);
   border: none;
