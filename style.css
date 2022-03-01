@@ -107,6 +107,10 @@ section::before {
   height: 70vh;
 }
 
+#about-us-text {
+  text-align: justify;
+}
+
 /* Projects Page */
 
 .filters button {
@@ -117,7 +121,8 @@ section::before {
 }
 
 .filters button:hover,
-.filters button:focus {
+.filters button:focus,
+.filters button:active {
   background-color: rgba(161, 174, 192, 0.3);
   border: none;
   outline: none;
