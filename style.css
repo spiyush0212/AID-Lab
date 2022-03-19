@@ -178,6 +178,16 @@ section::before {
 /* Footer */
 
 footer {
+  background-color: #dae8f8;
+}
+
+footer .footer-heading {
+  color: #476389;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+footer .bottom-footer {
   background-color: #feb639;
   color: black;
 }
