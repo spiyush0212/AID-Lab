@@ -38,7 +38,9 @@ section::before {
   /* border: 1px solid red; */
 }
 
-.navbar-nav li a:hover {
+.navbar-nav li a:hover,
+.navbar-nav li a:focus,
+.navbar-nav li a:active {
   color: #feb639;
   /* border: 1px solid red; */
 }
@@ -77,7 +79,9 @@ section::before {
   outline: none;
 }
 
-#hero a:hover {
+#hero a:hover,
+#hero a:focus,
+#hero a:active {
   background-color: #fa6020;
   color: white;
   border: none;
@@ -175,6 +179,33 @@ section::before {
   cursor: pointer;
 }
 
+/* FAQs */
+
+.faq button {
+  color: #476389;
+}
+
+.faq button:hover,
+.faq button:active,
+.faq button:focus {
+  color: #fa6020;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C!--!%20Font%20Awesome%20Pro%206.1.0%20by%20%40fontawesome%20-%20https%3A%2F%2Ffontawesome.com%20License%20-%20https%3A%2F%2Ffontawesome.com%2Flicense%20(Commercial%20License)%20Copyright%202022%20Fonticons%2C%20Inc.%20--%3E%3Cpath%20d%3D%22M432%20256c0%2017.69-14.33%2032.01-32%2032.01H256v144c0%2017.69-14.33%2031.99-32%2031.99s-32-14.3-32-31.99v-144H48c-17.67%200-32-14.32-32-32.01s14.33-31.99%2032-31.99H192v-144c0-17.69%2014.33-32.01%2032-32.01s32%2014.32%2032%2032.01v144h144C417.7%20224%20432%20238.3%20432%20256z%22%2F%3E%3C%2Fsvg%3E");
+  color: #476389;
+  order: -1;
+  margin-left: 0;
+  margin-right: 1em;
+}
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20448%20512%22%3E%3C!--!%20Font%20Awesome%20Pro%206.1.0%20by%20%40fontawesome%20-%20https%3A%2F%2Ffontawesome.com%20License%20-%20https%3A%2F%2Ffontawesome.com%2Flicense%20(Commercial%20License)%20Copyright%202022%20Fonticons%2C%20Inc.%20--%3E%3Cpath%20d%3D%22M432%20256c0%2017.69-14.33%2032.01-32%2032.01H256v144c0%2017.69-14.33%2031.99-32%2031.99s-32-14.3-32-31.99v-144H48c-17.67%200-32-14.32-32-32.01s14.33-31.99%2032-31.99H192v-144c0-17.69%2014.33-32.01%2032-32.01s32%2014.32%2032%2032.01v144h144C417.7%20224%20432%20238.3%20432%20256z%22%2F%3E%3C%2Fsvg%3E");
+  color: #476389;
+  order: -1;
+  margin-left: 0;
+  margin-right: 1em;
+}
+
 /* Footer */
 
 footer {
@@ -190,4 +221,21 @@ footer .footer-heading {
 footer .bottom-footer {
   background-color: #feb639;
   color: black;
+}
+
+footer i.fa-brands {
+  font-size: 1.5em;
+  margin: 10px 10px 20px 0px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+  color: #fa6020;
+  text-decoration: none;
 }
