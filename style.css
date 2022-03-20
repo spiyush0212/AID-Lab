@@ -8,6 +8,10 @@
   font-size: 16px;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Inter", sans-serif;
 }
@@ -179,16 +183,24 @@ section::before {
   cursor: pointer;
 }
 
-/* FAQs */
+/* Collab */
 
-.faq button {
-  color: #476389;
+.collab img {
+  cursor: pointer;
 }
+
+.collab img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+/* FAQs */
 
 .faq button:hover,
 .faq button:active,
 .faq button:focus {
   color: #fa6020;
+  background-color: none;
 }
 
 .accordion-button:not(.collapsed)::after {
