@@ -182,6 +182,8 @@ section::before {
 /* Teams Page  */
 .team figure img {
   width: 100%;
+  border-radius: 50%;
+  /* outline: 1px solid black; */
 }
 
 .team figure figcaption {
@@ -190,6 +192,8 @@ section::before {
 
 .team figure img:hover {
   cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 /* Collab */
@@ -201,6 +205,29 @@ section::before {
 .collab img:hover {
   transform: scale(1.1);
   transition: all 0.5s;
+}
+
+/* Join us  */
+
+.join .jd {
+  text-align: justify;
+}
+
+#join a {
+  background-color: #feb639;
+  color: black;
+  border: none;
+  outline: none;
+}
+
+#join a:hover,
+#join a:focus,
+#join a:active {
+  background-color: #fa6020;
+  color: white;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 /* FAQs */
