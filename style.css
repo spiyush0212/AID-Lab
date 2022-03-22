@@ -125,10 +125,6 @@ section::before {
 
 /* Projects Page */
 
-.info-project {
-  height: 70vh;
-}
-
 .filters button {
   background-color: rgba(161, 174, 192, 0.1);
   border: none;
