@@ -16,3 +16,12 @@ var slider = tns({
     "autoplayButtonOutput": false,
     "navPosition": "bottom"
 });
+
+// // Scrolling Navbar
+const navbarScroll = document.getElementById('navbar-scroll');
+
+window.addEventListener("scroll", function (e) {
+    var y = window.scrollY;
+    navbarScroll.style.display = (this.oldScroll > this.scrollY && y >= 700) ? "initial" : "none";
+    this.oldScroll = this.scrollY;
+});

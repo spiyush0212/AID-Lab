@@ -123,6 +123,30 @@ section::before {
   text-align: justify;
 }
 
+/* Navbar Scroll  */
+.navbar-scroll {
+  background-color: #feb639;
+  text-align: center;
+  padding: 5px 0px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-scroll a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  margin: 0px 1rem;
+}
+
+.navbar-scroll a:hover,
+.navbar-scroll a:focus,
+.navbar-scroll a:active {
+  color: #476389;
+}
+
 /* Projects Page */
 
 .filters button {
