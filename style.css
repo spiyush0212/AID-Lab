@@ -132,6 +132,7 @@ section::before {
   position: fixed;
   top: 0;
   z-index: 1000;
+  display: none;
 }
 
 .navbar-scroll a {
@@ -205,13 +206,14 @@ section::before {
 .paper a {
   color: black;
   font-style: italic;
-  text-decoration: underline;
+  text-decoration: underline 0.1em rgba(0, 0, 0, 1);
+  transition: text-decoration-color 200ms ease-in;
 }
 
 .paper a:hover {
   color: #fa6020;
   font-style: italic;
-  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0);
 }
 
 ul.timeline {
@@ -265,7 +267,6 @@ ul.timeline > li:before {
 .team figure img {
   width: 100%;
   border-radius: 50%;
-  /* outline: 1px solid black; */
 }
 
 .team figure figcaption {
@@ -277,6 +278,21 @@ ul.timeline > li:before {
   transform: scale(1.1);
   transition: all 0.5s;
 }
+
+/* .team .member {
+  position: relative;
+} */
+
+/* .team .member:hover::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  top: 50%;
+  background-color: red;
+} */
 
 /* Collab */
 
