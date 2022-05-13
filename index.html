@@ -36,9 +36,9 @@
     <section>
         <nav class="navbar navbar-expand-sm">
             <div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                 </button>
                 <div class="collapse navbar-collapse text-center" id="navbarsExample11">
                     <ul class="navbar-nav mt-3">
@@ -155,12 +155,14 @@
             <div class="container">
                 <h2 class="heading my-5 text-center">Projects</h2>
                 <div class="filters text-center">
-                    <button class="btn btn-success">Accessible Education</button>
-                    <button class="btn btn-success">Accessible Web</button>
-                    <button class="btn btn-success my-1">Accessible Information</button>
+                    <button class="accEdu btn btn-success">Accessible Education</button>
+                    <button class="accWeb btn btn-success">Accessible Web</button>
+                    <button class="accInfo btn btn-success my-1">Accessible Information</button>
                 </div>
+
                 <div class="row d-flex flex-row my-slider my-5">
-                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center">
+                    <!-- <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal1">
                         <div class="card h-100" style="width: 18rem;">
                             <img src="imgs/projects/storybox.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
@@ -173,7 +175,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center">
+                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         <div class="card h-100" style="width: 18rem;">
                             <img src="imgs/projects/xr.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
@@ -184,7 +187,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center">
+                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal3">
                         <div class="card h-100" style="width: 18rem;">
                             <img src="imgs/projects/bus.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
@@ -196,7 +200,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center">
+                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal4">
                         <div class="card h-100" style="width: 18rem;">
                             <img src="imgs/projects/safetyapp.png" class="card-img-top p-3" alt="...">
                             <div class="card-body">
@@ -207,7 +212,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center">
+                    <div class="col-6 col-md-4 text-center d-flex justify-content-center align-items-center"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal5">
                         <div class="card h-100" style="width: 18rem;">
                             <img src="imgs/projects/workstation.jpg" class="card-img-top p-3" alt="...">
                             <div class="card-body">
@@ -215,6 +221,129 @@
                                 <p class="card-text d-none d-md-block">A healthier & space efficient workstation that
                                     caters to one’s physical & mental health.
                             </div>
+                        </div>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <!-- MODAL FOR PROJECTS  -->
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">StoryBox: Multi-modal Interactive and
+                                Independent Storytelling for Children with Visual Impairment</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Storytelling enhances children's imagination, creativity, linguistic skills, emotional
+                            skills, and moral values. Limited storytelling media for children with blindness and visual
+                            impairment confines their access to independent storytelling. This project explores a
+                            multi-modal storytelling agent - StoryBox, which facilitates an independent and interactive
+                            storytelling experience for children (5-12 years) with blindness and visual impairment. The
+                            platform supports audio-based story narration and enables interaction with story elements
+                            via sensor-enabled tactile clay figurines. The concept for StoryBox takes inspiration from
+                            'Kaavad Banchana' - an oral storytelling tradition from Rajasthan, India.
+                        </div>
+                        <div class="modal-footer d-flex justify-content-start">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <p>Developers: Bhavya Chopra Jain and Ishika Joshi</p>
+                            <p>Tags: Accessible Learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Exploring the Design of XR Enabled Accessible
+                                Learning Experiences</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This project will address this gap and try to explore XR elements such as marked audio
+                            captioning, 3D sound, contrast, customizable fonts etc. in the design of resources which are
+                            engaging, accessible, immersive and interactive for persons with sensory impairments.
+
+                        </div>
+                        <div class="modal-footer d-flex justify-content-start">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <p>Developers: Sambhav Jain and Ishika Joshi</p>
+                            <p>Tags: Accessible Learning</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Accessible Bus Information system and app for
+                                users with sensory impairments</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            This project aims to re-design the current bus information system and make it more
+                            accessible for all people, including persons with sensory impairments. The main aim of this
+                            project is to provide a user-friendly interface for users to find and plan out their bus
+                            trip in the fastest and the most convenient way possible.
+                        </div>
+                        <div class="modal-footer d-flex justify-content-start">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <p>Developed by Tanupriya Das</p>
+                            <p>Tags: Accessible Learning</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Teaching life skills to blind students using
+                                spatial sound (audio AR)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Blind students are late to learn about the life skills needed to connect with people and do
+                            not get the exposure, especially during remote times. The project aims in catering to the
+                            problem through a role-playing game. The players will learn life-skills using only audio
+                            (screen-free), and the whole experience will be engaging and physical & hands-on. They
+                            interact with the digital audio and based on their responses or action, the story line is
+                            moulded - the behaviour is either rewarded or a lesson is taught.
+                        </div>
+                        <div class="modal-footer d-flex justify-content-start">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <p>Developed by Kshitij Aggarwal</p>
+                            <p>Tags: Accessible Learning</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Making a healthier workstation</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Creating a healthier and space efficient workstation environment that caters to one’s
+                            physical as well as mental health.
+                        </div>
+                        <div class="modal-footer d-flex justify-content-start">
+                            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                            <p>Developers: Jasmine Kaur and Saarthak Tehlan</p>
+                            <p>Tags: Accessible Web</p>
                         </div>
                     </div>
                 </div>
@@ -267,80 +396,155 @@
         </div> -->
 
         <!-- TEAM   -->
-        <div id="team" class="team my-5">
+        <div id="team" class="team ">
             <div class="container">
-                <h2 class="heading my-5 text-center ">TEAM</h2>
-                <!-- <div class="row">
-                <div class="col-2"></div>
-                <div class="col-4 ">
-                    <figure>
-                        <img src="./imgs/team/team1.jpg" alt="">
-                    </figure>
-                </div>
-                <div class="col-4 ">
-                    <h2>Dr. Richa Gupta</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad assumenda, omnis commodi asperiores
-                        ex consequatur repudiandae suscipit minima nulla fugit itaque ea tenetur fuga blanditiis
-                        accusantium odio dignissimos possimus sunt. Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Quis, eos veritatis! Beatae illo
-                </div>
-                <div class="col-2"></div>
-            </div> -->
+                <h2 class="heading mb-5 text-center ">TEAM</h2>
                 <div class="row">
-                    <div class="member col-6 col-md-3 ">
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/richa.jpg" class="p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/richa.jpg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
                             <figcaption class=""><strong>Dr. Richa Gupta</strong></figcaption>
                             <figcaption class="">Principal Researcher</figcaption>
                         </figure>
                     </div>
-                    <div class=" col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/ishika.jpg" class="p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/ishika.jpg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
                             <figcaption class=""><strong>Ishika Joshi</strong></figcaption>
                             <figcaption class="">Undergrad Researcher</figcaption>
                         </figure>
                     </div>
-                    <div class=" col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/jasmine.jpg" class="p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/jasmine.jpg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
                             <figcaption class=""><strong>Jasmine Kaur</strong></figcaption>
                             <figcaption class="">Undergrad Researcher</figcaption>
                         </figure>
                     </div>
-                    <div class=" col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/tanupriya.jpg" class="p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/tanupriya.jpg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
                             <figcaption class=""><strong>Tanupriya Das</strong></figcaption>
                             <figcaption class="">Undergrad Researcher</figcaption>
                         </figure>
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class=" col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/piyush.jpg" class=" p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/sambhav.jpeg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="https://github.com/spiyush0212"><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
                             <figcaption class=""><strong>Piyush Sharma</strong></figcaption>
                             <figcaption class="">Web Developer</figcaption>
                         </figure>
                     </div>
-                    <div class=" col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/sambhav.jpeg" class=" p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/sambhav.jpeg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
                             <figcaption class=""><strong>Sambhav Jain</strong></figcaption>
                             <figcaption class="">Undergrad Researcher</figcaption>
                         </figure>
                     </div>
-                    <div class="col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/kshitij.jpg" class=" p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/kshitij.jpg" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
                             <figcaption class=""><strong>Kshitij</strong></figcaption>
                             <figcaption class="">Undergrad Researcher</figcaption>
                         </figure>
                     </div>
-                    <div class="col-6 col-md-3 ">
+
+                    <div class="col-6 col-md-3">
                         <figure>
-                            <img src="./imgs/team/bhavya.png" class=" p-3" alt="">
+                            <div class="member">
+                                <img src="./imgs/team/bhavya.png" class="img-fluid" alt="">
+                                <div class="member-info">
+                                    <div class="social">
+                                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                        <a href=""><i class="fa-brands fa-github"></i></a>
+                                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                                    </div>
+                                </div>
+                            </div>
                             <figcaption class=""><strong>Bhavya Chopra</strong></figcaption>
                             <figcaption class="">Undergrad Researcher</figcaption>
                         </figure>

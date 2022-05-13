@@ -195,13 +195,20 @@ section::before {
   height: 10px;
   width: 30px;
   margin: 0px 10px;
-  /* border-radius: 10px; */
   background-color: #a1aec0;
   opacity: 20%;
   border: none;
 }
 
-/* Papers  */
+.modal-title {
+  color: #476389;
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+/* Publications  */
 
 .paper a {
   color: black;
@@ -264,35 +271,71 @@ ul.timeline > li:before {
 }
 
 /* Teams Page  */
-.team figure img {
-  width: 100%;
-  border-radius: 50%;
-}
 
-.team figure figcaption {
+.team figcaption {
   text-align: center;
 }
 
-.team figure img:hover {
-  cursor: pointer;
-  transform: scale(1.1);
-  transition: all 0.5s;
+figure {
+  background-color: white;
 }
 
-/* .team .member {
-  position: relative;
-} */
+.team {
+  background: #fff;
+  padding: 60px 0;
+}
 
-/* .team .member:hover::before {
-  content: "";
+.team .member {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.team .member .member-info {
+  opacity: 0;
   position: absolute;
-  display: block;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+}
+
+.team .member .social {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  height: 100%;
-  left: 50%;
-  top: 50%;
-  background-color: red;
-} */
+  transition: left ease-in-out 0.3s;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #fff;
+}
+
+.team .member .social a:hover {
+  color: #feb639;
+}
+
+.team .member .social i {
+  font-size: 28px;
+  margin: 0 10px;
+}
+
+.team .member:hover .member-info {
+  background: linear-gradient(0deg, #2d759e 0%, #5a859eb9 15%, rgba(255, 255, 255, 0) 100%);
+  opacity: 1;
+  transition: 0.4s;
+}
+
+.team .member:hover .social {
+  left: 0;
+  transition: left ease-in-out 0.3s;
+}
 
 /* Collab */
 
